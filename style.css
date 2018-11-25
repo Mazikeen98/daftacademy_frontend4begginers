@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Lucida Console', monospace;
+}
+
+​a:visited,
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 4.5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-section__header {
+    color: #ec008c;
+    position: relative;
+    top: 40px;
+}
+
+.content-section {
+    min-height: 100vh;
+    margin-top: 30px;
+}
+
+.screen-reader-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+/*sidebar*/
+
+.sidebar {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ef008e;
+    opacity: 0.8;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.sidebar-social-media {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+.svg {
+    width: 25px;
+    height: auto;
+}
+
+.page-content {
+    margin-left: 220px;
+    padding: 0 10%;
+    text-align: right;
+}
+
+
+/*home*/
+
+.home-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.band-members-list {
+    color: #dbd8fb;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 5px;
+    letter-spacing: 1.5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.band-members-list__image {
+    height: 295px;
+    width: auto;
+}
+
+.band-members-list__name {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.band-members-list__desc {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/*about*/
+
+.about-section__image {
+    position: relative;
+    top: 80px;
+    width: 600px;
+    height: auto;
+    border-top: 3px #ec008c solid;
+}
+
+.article-section__text {
+    font-size: 13.px;
+    letter-spacing: 1.5px;
+    position: relative;
+    background-color: #25072e;
+    border-bottom: 3px #ec008c solid;
+    color: #CCC8FF;
+    left: 0;
+    bottom: 100px;
+    width: 350px;
+    height: auto;
+    text-align: left;
+    font-family: Open Sans;
+}
+
+.article-section__header {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5;
+}
+
+.article__text {
+    line-height: 20px;
+}
+
+
+/*concerts*/
+
+.concerts {
+    color: #dbd8fb;
+}
+
+.concert-section__image {
+    width: 300px;
+    height: auto;
+    border-bottom: 3px #ec008c solid;
+}
+
+.concert-section__concerts-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 550px;
+    width: 650px;
+    position: relative;
+    left: 210;
+    top: 80px;
+}
+
+.content-section__item {
+    margin: 0;
+    padding: 0;
+}
+
+.TICKETS {
+    position: relative;
+    text-align: right;
+    top: -25px;
+}
+
+.concerts__date {
+    margin: 0px;
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.concerts__location {
+    margin: 0px;
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/*video*/
+
+.video {
+    border-top: 3px #ec008c solid;
+    position: relative;
+    top: 60px;
+}
+
+
+/*gallery*/
+
+.gallery {
+    position: relative;
+    top: 80px;
+    left: 165px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    width: 700px;
+    height: 500px;
+    list-style-position: inherit;
+}
+
+.gallery__image {
+    border-top: 3px #ec008c solid;
+    width: 225px;
+    height: auto;
+}
+
+
+/*contact*/
+
+.contact__image {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 80px;
+}
+
+.contact {
+    color: #dbd8fb;
+    position: relative;
+    top: -80px;
+    right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: left;
+}
+
+.form-section {
+    color: #dbd8fb;
+    display: flex;
+    flex-direction: row;
+}
+
+.form__label {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.form__input {
+    padding: 5px;
+}
+
+.form {
+    position: relative;
+    top: 80px;
+}
+
+.button {
+    position: relative;
+    top: 28px;
+    display: flex;
+    justify-content: flex-start;
+}
